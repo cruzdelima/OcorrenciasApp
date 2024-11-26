@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Defina o nome do seu aplicativo aqui -->
+	<string name="app_name">Ocorrências</string>
+	
+	<!-- Labels e Hint Texts -->
+	<string name="data_label">Data</string>
+	<string name="data_hint">Digite a data</string>
+
+	<string name="hora_recebimento_label">Hora do Recebimento</string>
+	<string name="hora_hint">Digite a hora</string>
+
+	<string name="forma_acionamento_label">Forma de Acionamento</string>
+	<string name="forma_acionamento_hint">Digite a forma de acionamento</string>
+
+	<string name="hora_saida_label">Horário de Saída</string>
+	<string name="hora_saida_hint">Digite o horário de saída</string>
+
+	<string name="hora_local_label">Horário no Local</string>
+	<string name="hora_local_hint">Digite o horário no local</string>
+
+	<string name="hora_saida_local_label">Horário de Saída do Local</string>
+	<string name="hora_saida_local_hint">Digite o horário de saída do local</string>
+
+	<string name="hora_chegada_destino_label">Horário de Chegada ao Destino</string>
+	<string name="hora_chegada_destino_hint">Digite o horário de chegada ao destino</string>
+
+	<string name="hora_retorno_quartel_label">Horário de Retorno ao Quartel</string>
+	<string name="hora_retorno_quartel_hint">Digite o horário de retorno ao quartel</string>
+
+	<string name="hodometro_saida_label">Hodômetro na Saída</string>
+	<string name="hodometro_saida_hint">Digite o hodômetro na saída</string>
+
+	<string name="hodometro_local_label">Hodômetro no Local</string>
+	<string name="hodometro_local_hint">Digite o hodômetro no local</string>
+
+	<string name="apoio_label">Apoio</string>
+	<string name="nome_apoio_label">Nome do Apoio</string>
+	<string name="matricula_apoio_label">Matrícula do Apoio</string>
+
+	<!-- Pergunta sobre o veículo envolvido -->
+	<string name="veiculo_envolvido_label">Veículo Envolvido?</string>
+	<string name="veiculo_envolvido_hint">Selecione se o veículo está envolvido</string>
+
+	<string name="veiculo_1">Veículo 1</string>
+	<string name="veiculo_2">Veículo 2</string>
+	<string name="modelo">Modelo</string>
+	<string name="cor_predominante">Cor Predominante</string>
+	<string name="placa">Placa</string>
+	<string name="estado">Estado</string>
+	<string name="nome_condutor">Nome do Condutor</string>
+	<string name="rg_cpf">RG/CPF</string>
+	<string name="orga_exp">Órgão Expedidor</string>
+
+
+	<!-- Detalhes do veículo -->
+	<string name="modelo_label">Modelo</string>
+	<string name="cor_predominante_label">Cor Predominante</string>
+	<string name="placa_label">Placa</string>
+	<string name="estado_label">Estado</string>
+	<string name="nome_condutor_label">Nome do Condutor</string>
+	<string name="rg_cpf_label">RG/CPF</string>
+	<string name="orgao_expedidor_label">Órgão Expedidor</string>
+
+	<!-- Botões -->
+	<string name="salvar_ocorrencia_button">Salvar Ocorrência</string>
+
+	<!-- Outras -->
+	<string name="formulario_title">Formulário de Ocorrência</string>
+</resources>

@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <!-- Título do formulário -->
+    <TextView
+        android:id="@+id/formularioTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/formulario_title"
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp"
+        android:textColor="#333333" />  <!-- Cor cinza escuro -->/>
+
+    <!-- Data -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/data_label"
+        android:textColor="#333333" />  <!-- Cor cinza escuro -->/>
+    <EditText
+    android:id="@+id/inputData"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/data_hint"
+    android:inputType="date" />
+
+
+    <!-- Hora do recebimento -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hora_recebimento_label" />
+    <EditText
+    android:id="@+id/inputHoraRecebimento"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="@string/hora_hint"
+    android:inputType="time" />
+
+
+    <!-- Forma de acionamento -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forma_acionamento_label" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/forma_acionamento_hint"
+        android:inputType="text" />
+
+    <!-- Horário de saída -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hora_saida_label" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hora_saida_hint"
+        android:inputType="time" />
+
+    <!-- Horário no local -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hora_local_label" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hora_local_hint"
+        android:inputType="time" />
+
+    <!-- Horário de saída do local -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hora_saida_local_label" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hora_saida_local_hint"
+        android:inputType="time" />
+
+    <!-- Horário de chegada ao destino -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hora_chegada_destino_label" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hora_chegada_destino_hint"
+        android:inputType="time" />
+
+    <!-- Horário de retorno ao quartel -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hora_retorno_quartel_label" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hora_retorno_quartel_hint"
+        android:inputType="time" />
+
+    <!-- Hodômetro na saída -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hodometro_saida_label" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hodometro_saida_hint"
+        android:inputType="number" />
+
+    <!-- Hodômetro no local -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hodometro_local_label" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hodometro_local_hint"
+        android:inputType="number" />
+
+    <!-- Apoio -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/apoio_label" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/apoio_label"
+        android:inputType="text" />
+
+    <!-- Nome do apoio -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nome_apoio_label" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nome_apoio_label"
+        android:inputType="text" />
+
+    <!-- Matrícula do apoio -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/matricula_apoio_label" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/matricula_apoio_label"
+        android:inputType="text" />
+
+    
+    <!-- Switch para "Veículo Envolvido?" -->
+    <TextView
+        android:id="@+id/textVeiculoEnvolvido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/veiculo_envolvido_label" />
+
+    <Switch
+        android:id="@+id/switchVeiculo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/veiculo_envolvido_label" />
+
+        <!-- Veículo 1 (Visível se o switch for ativado) -->
+        <LinearLayout
+            android:id="@+id/veiculo1Layout"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/veiculo_1"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/inputModeloVeiculo1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/modelo" />
+
+            <EditText
+                android:id="@+id/inputCorVeiculo1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/cor_predominante" />
+
+            <EditText
+                android:id="@+id/inputPlacaVeiculo1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/placa" />
+
+            <EditText
+                android:id="@+id/inputEstadoVeiculo1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/estado" />
+
+            <EditText
+                android:id="@+id/inputNomeCondutorVeiculo1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/nome_condutor" />
+
+            <EditText
+                android:id="@+id/inputRgCpfVeiculo1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/rg_cpf" />
+
+            <EditText
+                android:id="@+id/inputOrgaoExpedidorVeiculo1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/orga_exp" />
+        </LinearLayout>
+
+        <!-- Veículo 2 (Visível se o switch for ativado) -->
+        <LinearLayout
+            android:id="@+id/veiculo2Layout"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/veiculo_2"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/inputModeloVeiculo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/modelo" />
+
+            <EditText
+                android:id="@+id/inputCorVeiculo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/cor_predominante" />
+
+            <EditText
+                android:id="@+id/inputPlacaVeiculo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/placa" />
+
+            <EditText
+                android:id="@+id/inputEstadoVeiculo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/estado" />
+
+            <EditText
+                android:id="@+id/inputNomeCondutorVeiculo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/nome_condutor" />
+
+            <EditText
+                android:id="@+id/inputRgCpfVeiculo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/rg_cpf" />
+
+            <EditText
+                android:id="@+id/inputOrgaoExpedidorVeiculo2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/orga_exp" />
+        </LinearLayout>
+
+
+        <!-- Botão salvar -->
+    <Button
+        android:id="@+id/btnSalvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/salvar_ocorrencia_button"
+        android:layout_marginTop="20dp" />
+    </LinearLayout>
+</ScrollView>
