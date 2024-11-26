@@ -36,7 +36,7 @@ namespace OcorrenciasApp
                 string data = inputData.Text;
                 string horaRecebimento = inputHoraRecebimento.Text;
 
-                // Criar um objeto de ocorrência (exemplo simplificado)
+                // Criar um objeto de ocorrência 
                 string ocorrencia = $"Data: {data}, Hora: {horaRecebimento}\n";
 
                 // Salvar localmente (armazenamento interno)
@@ -51,12 +51,13 @@ namespace OcorrenciasApp
                 inputHoraRecebimento.Text = "";
             };
 
-            // Lógica do switch (mostrar/ocultar campos dos veículos)
+            // Lógica do switch (mostrar/ocultar campos dos veículos) Tinha esquecido disso no início, por isso deu erro.
             switchVeiculo.CheckedChange += (sender, e) =>
             {
                 if (e.IsChecked)
                 {
-                    // Se o switch estiver marcado, mostra os campos dos veículos
+                    // Se o switch estiver marcado, mostra os campos dos veículos. Coloquei dessa forma para não ficar informações desnecessárias.
+                    veiculo1Layout.Visibility = Android.Views.ViewStates.Visible;
                     veiculo1Layout.Visibility = Android.Views.ViewStates.Visible;
                     veiculo2Layout.Visibility = Android.Views.ViewStates.Visible;
                 }
